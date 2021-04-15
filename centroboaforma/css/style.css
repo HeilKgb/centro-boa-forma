@@ -1,0 +1,242 @@
+/*height: 100%;*/
+
+html, body {
+  height: 100%;
+}
+/*COLORS */
+.block{
+  min-height: 100%;
+} 
+.btn-color{
+  background-color: #2dc7d0 !important;
+}
+/*TITULO E PARAGRAFO*/
+.title{
+  font-size: 2rem !important;
+  text-transform: uppercase;
+}
+.title::after{
+  content: '';
+  display: block;
+  width: 100px;
+  border-top: 1px solid #2dc7d0;
+  margin: 15px auto;
+}
+.paragraph{
+  line-height: 1.8rem !important;
+}
+/*LOGO*/
+.logo_text{
+  font-size: 0; 
+  margin: 0;
+}
+.logo_img{
+  margin-top: 15px;
+  width: 100px;
+}
+/*MENU*/
+.navbar{
+  height: 94px;
+  background-color: transparent;
+  transition: background 0.5s linear;
+}
+
+.navbar ul li a{
+  padding: 15px;
+}
+.navbar ul li a:hover{
+  background-color: rgba(0,0,0,0.3);
+  color:#2dc7d0;
+}
+.nav-color{
+  background-color: rgba(0,0,0,0.7);
+  transition: background 0.5s linear;
+}
+/*HOME*/
+.home{
+  /*deve de usar body para o caeçalho ficar transparente*/
+  animation: mudarbg 20s infinite;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.banner p{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+/*HOME - ANIMATION*/
+@keyframes mudarbg{
+  40%{background-image: url(../img/bg2.jpg)}
+  80%{background-image: url(../img/bg3.jpg)}
+  100%{background-image: url(../img/bg3.jpg)}
+
+}
+/*SOBRE*/
+.about{
+  background-image: url(../img/textura1.png);
+}
+.btn-horario{
+  padding:20px;
+}
+.missao-visao-valores{
+  padding: 20px 0 !important;
+  margin-top: 35px !important;
+  background-color:#2dc7d0;
+  color:#fff;
+  line-height: 1.8rem;
+}
+.missao-visao-valores h3{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+/*SERVICOS*/
+.services {
+  background-image: url(../img/textura2.png);
+}
+
+/*UNIDADES*/
+.unidades{
+  background-image: url(../img/bg-unidades.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.card.horizontal p{
+  color:#212121;
+  line-height: 1.8rem !important;
+}
+/*CONTATO*/
+.contato{
+  background-image: url(../img/textura.png);
+}
+.map {
+  min-height: 500px;
+}
+.map iframe {
+  width: 100%;
+  min-height: 500px;
+  border:none;
+}
+/*INFORMACOES*/
+.info{
+  background-image: url(../img/textura2.png);
+  padding: 30px;
+  min-height: 500px;
+}
+.info h4{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.contato h4{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.form{
+  min-height: 500px;
+  padding: 30px;
+}
+/*DEPOIMENTOS*/
+.depoimentos{
+  background-color: #2dc7d0;
+}
+.depoimentos .title::after{
+  border-top: 1px solid #fff;
+}
+.depoimentos img {
+  width: 100px;
+}
+.depoimentos h4 {
+font-size: 1.2rem;
+}
+
+/*FOOTER*/
+.rodape {
+  background-image: url(../img/bg-rodape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  color: #fff;
+}
+.rodape img{
+  width: 100px;
+}
+/*CUSTOM*/
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100% !important;
+}
+nav.nav-extended .nav-content {
+  position: relative;
+  line-height: normal;
+}
+.navbar-fixed {
+  position: absolute !important;
+  height: 94px !important;
+}
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons , nav a.sidenav i{
+  height: 94px!important;
+  line-height: 94px!important;
+}
+.sidenav{
+  background: url(../img/textura2.png);
+  
+}
+.sidenav li>a {
+  color: #fff !important;
+  font-weight: 100 !important;}
+.row{
+  margin-bottom:0 !important;
+}
+.tabs{
+  background-color: #222 !important;
+}
+.tabs a{
+  color: #fff !important;
+}
+.tabs a.active, .tabs a:hover{
+  color: #2dc7d0 !important;
+}
+.tabs .indicator{
+  background-color: #2dc7d0 !important;
+}
+.tabs  a:focus{
+  background-color: rgba(43, 187, 173, 0.1) !important;
+  
+}
+/*MEDIA*/
+@media only screen and (max-width:480px){
+
+}
+@media only screen and (min-width: 601px) {
+  .banner{
+    padding-top: 4.5rem;
+  }
+  .banner h2{
+    font-size: 4rem; 
+   }
+   .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .banner h2{
+    padding-top:5rem;
+    font-size: 5rem; 
+   }
+.container {
+  width: 90%;
+}
+}
+
