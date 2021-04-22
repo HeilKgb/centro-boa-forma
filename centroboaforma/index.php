@@ -69,7 +69,7 @@
         <h2 class="ligth title">Sobre nós</h2>
       </div>
       <div class="col s12 l6 ">
-        <p>O Centro Boa Forma chegou a Itabuna e região trazendo um novo conceito em prevenção, promoção e reabilitação da saúde.
+        <p>O Centro Boa Forma chegou a Itabuna e região trazendo um novo conceito em prevenção, promoção e reabilitação da saúde. 
           Localizada no centro da cidade, conta com fácil estacionamento, salas amplas e climatizazdas, ambiente confortável e seguro aos seus usuários. Suas instalações foram projetas e equiapdas sob mediada, dentro dos padrões dee acessibilidade, para acolher principalemnte pessoas com limitações funcionais. O centro dispõe de uma equipe profissional qualificada e com experiência no mercado, prezando sempre por tratamentos individualizados e baseados em evidências cientificas.
         </p>
       </div>
